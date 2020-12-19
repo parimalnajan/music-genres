@@ -1,7 +1,7 @@
 
 
-## Music recommendation app using react
+#### Music recommendation app using react
 
 
-### Live Demo:https://parimal-music.netlify.app/
+#### Live Demo:https://parimal-music.netlify.app/
 
