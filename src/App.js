@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState,  } from 'react';
 
 import './App.css';
 
 function App() {
   var [genre, setGenre] = useState("pop");
-  var [render, setRender] = useState();
+ 
   var message = "Select a genre and explore my favourite artists!";
 
   var database = {
@@ -75,7 +75,7 @@ function App() {
     setGenre(key);
     let temp=database.key;
     console.log(temp);
-    setRender(temp);
+    
     console.log(Object.keys(database[genre]))
     //console.log(temp.artist)
     //setRender(database.genre);
@@ -116,7 +116,7 @@ function App() {
                       </div>
                     </div>
                   <div className="inline-wrapper"> </div>
-                  <div> <iframe src={database[genre][key].link} width="500" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                  <div> <iframe title="song" src={database[genre][key].link} width="500" height="80" frameborder="0" allowtransparency="true" ></iframe></div>
 
 
                </div>))
