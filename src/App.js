@@ -18,14 +18,14 @@ function App() {
         2: {
            song: "Connection",
            artist: "OneRepublic",
-           album: "Connection",
+           album: "Single",
            link:" https://open.spotify.com/embed/track/3T4UodGkfZObJ43RtA5KFU " 
         },
         3: {
-          song: " ",
-          artist: " ",
-          album: " ",
-          link:" "
+          song: "Something Just like This ",
+          artist: "The Chainsmokers ",
+          album: "Single ",
+          link:"https://open.spotify.com/embed/track/2rizacJSyD9S1IQUxUxnsK" 
        },
 
      },
