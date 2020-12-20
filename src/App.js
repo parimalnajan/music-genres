@@ -82,10 +82,7 @@ function App() {
     //console.log(temp);
     //setGenre(temp);
    
-
      }
-
-
 
   return (
     <div className="App">
